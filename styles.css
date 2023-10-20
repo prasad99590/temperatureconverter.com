@@ -1,0 +1,227 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('d.jpg');
+    background-size: cover;
+   
+}
+.tem_box
+{
+    height: 70%;
+    width:50%;
+    border: 4px solid gold;
+    color: white;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(61, 10, 246, 0.15);  
+    backdrop-filter: blur(5px);
+}
+.one
+{
+  width: 80%;
+  height: 25%;
+  background-color: pink;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent
+}
+.two
+{
+    width: 80%;
+    height: 25%;
+    background-color: red;
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent
+ 
+
+}
+.three
+{
+    width: 80%;
+    height: 25%;
+    background-color: black;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent
+}
+ .two p{
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+input{
+    width: 80%;
+    height: 30%;
+    margin-left: 50px;
+    background-color: white;
+    color:black ;
+    font-weight: 900;
+    
+    font-size: 15px;
+  margin-top: 10px;
+}
+.ek
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    height: 95%;
+}
+.dho
+{
+    height: 95%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+select{
+    /* margin-left: 30px; */
+    height: 2.3rem;
+    margin-top: 7px;
+    background-color: #1ecad259;
+    border-radius: 1.5rem;
+    font-size: medium;
+    border: 2px solid;
+    text-align: center;
+
+}
+.one .ek input{
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+.one .ek p{
+    margin-left: 0px;
+}
+button{
+
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  background-color: rgb(255, 203, 0);
+  width: 10rem;
+  text-align: center;
+  border: 3px solid rgb(52, 72, 161);
+}
+#outputResult{
+    width: 5rem;
+    height: 3rem;
+    background-color: white;
+    color: black;
+}
+h3{
+    text-align: center;
+    background-color: #1ecad259;
+    color: black;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+    border: 3.5px solid rgb(52, 72, 161);
+    padding-top: 7px;
+    margin-left: 1.5rem;
+}
+#data{
+    height: 2.5rem;
+  border-radius: 1.5rem;
+  background-color: #1ecad259;
+  text-align: center;
+  border: 3px solid rgb(52, 72, 161);
+}
+p{
+    color:black;
+ }
+ #data:hover{
+    background-color: chocolate;
+ }
+ button:hover{
+    background-color: lightgreen;
+ }
+@media (max-width:760px) {
+    .one{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+    select{
+        margin-left: 0px;
+    }
+    .tem_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width:26rem;
+    }
+    .dho p{
+        margin-left: 0px;
+        margin-top: 6px;
+    }
+    .two{
+      align-items: start;
+    }
+     .two p{
+        margin-left: 0px;
+     }
+     .two input{
+          margin-left: 0px;
+          width: 206px;
+     }
+     .three{
+       justify-content:  start;
+     }
+     .one{
+        width: 80%;
+        height: 30%;
+     }
+     .ek input{
+        width: 206px;
+        height: 60%;
+        font-size: 13px;
+     }
+     h2{
+        margin-left: 15px;
+     }
+     .dho select{
+        width: 206px;
+    height: 2rem;
+    margin-bottom: 20px;
+     }
+      button{
+        width: 206px;
+        
+     }
+     h3{
+        width: 95%;
+        margin-left: 0px;
+        height: 2rem;
+        font-size: 12px;
+     }
+    
+}
+@media (min-width:761px){
+    .tem_box{
+        min-width: 45rem;
+    }
+}
